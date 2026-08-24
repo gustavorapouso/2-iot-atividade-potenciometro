@@ -6,14 +6,14 @@ Docente: Amanda Paul Dull
 
 Esse repositório serve para a entrega de atividades da matéria de IoT.
 
-[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com/things/kuoYKu5rDE5-atividade-led/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
+[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com/things/85ge87vttmh-atividade-potenciometro/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
-## Enunciado: Vamos ligar o LED!
+## Enunciado: Controle de Microservo com Potenciômetro!
 
-O projeto vai utilizar um botão como entrada para controlar um LED como saída. Ao pressionar o botão, o Arduino altera o estado do LED — cada clique liga ou desliga, funcionando como um interruptor eletrônico.
+O projeto vai utilizar um potenciômetro como entrada para controlar um micro servo como saída. Ao mexer o potenciômetro, o Arduino leva sinas para o micro servo se movimentar.
 
-- O Arduino lê o estado do botão pelo **pino 7**
-- Controla o LED pelo **pino 10**
+- O Arduino lê o estado do potenciômetro pelo **pino A0**
+- Controla o micro servo pelo **pino 9**
 
 ## Materiais necessários
 
@@ -22,8 +22,6 @@ O projeto vai utilizar um botão como entrada para controlar um LED como saída.
 | 1 | Placa Arduino UNO |
 | 1 | Cabo USB |
 | 1 | Protoboard |
-| 1 | Resistor de 200 Ω ou 220 Ω |
-| 1 | Resistor de 10 kΩ |
-| 1 | Botão tipo push button |
-| 1 | LED vermelho difuso de 5 mm |
+| 1 | Potenciômetro |
+| 1 | Micro Servo |
 | — | Fios de jumper macho-macho |
