@@ -1,0 +1,1 @@
+# 2-iot-atividade-potenciometro
